@@ -24,12 +24,38 @@
                                     <constraint firstAttribute="height" constant="105" id="8ym-pG-HIK"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMh-u8-JwS">
+                                <rect key="frame" x="15" y="129" width="345" height="203"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3V-Z3-l3M">
+                                <rect key="frame" x="15" y="356" width="345" height="203"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-zB-Nqr">
+                                <rect key="frame" x="15" y="583" width="345" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3tV-T2-YhJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="tcOffWhite"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1tm-zB-Nqr" secondAttribute="trailing" constant="15" id="8Bb-T6-YNA"/>
                             <constraint firstItem="uae-ci-apE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8tp-BB-uJ1"/>
+                            <constraint firstItem="k3V-Z3-l3M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="ILS-i1-7ED"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kMh-u8-JwS" secondAttribute="trailing" constant="15" id="JFN-LC-OQ3"/>
+                            <constraint firstItem="kMh-u8-JwS" firstAttribute="top" secondItem="uae-ci-apE" secondAttribute="bottom" constant="24" id="N7W-TZ-kxD"/>
                             <constraint firstItem="uae-ci-apE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O6r-3B-qhc"/>
                             <constraint firstItem="uae-ci-apE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Puq-r2-aou"/>
+                            <constraint firstItem="k3V-Z3-l3M" firstAttribute="height" secondItem="kMh-u8-JwS" secondAttribute="height" id="Z3l-dS-eBz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1tm-zB-Nqr" secondAttribute="bottom" constant="24" id="akY-zP-hJd"/>
+                            <constraint firstItem="k3V-Z3-l3M" firstAttribute="top" secondItem="kMh-u8-JwS" secondAttribute="bottom" constant="24" id="cU6-rR-3Ah"/>
+                            <constraint firstItem="1tm-zB-Nqr" firstAttribute="top" secondItem="k3V-Z3-l3M" secondAttribute="bottom" constant="24" id="dJg-yj-2NG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k3V-Z3-l3M" secondAttribute="trailing" constant="15" id="fKd-LH-YN7"/>
+                            <constraint firstItem="1tm-zB-Nqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="iTb-Qx-ise"/>
+                            <constraint firstItem="kMh-u8-JwS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="rYq-ne-QpU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
