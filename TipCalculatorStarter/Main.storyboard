@@ -203,9 +203,14 @@
                         <outlet property="billAmountTextField" destination="edb-YQ-Z42" id="y4i-jp-YHb"/>
                         <outlet property="headerView" destination="uae-ci-apE" id="GCb-zE-aWs"/>
                         <outlet property="inputCardView" destination="kMh-u8-JwS" id="Ehd-x7-55S"/>
+                        <outlet property="outputCardView" destination="k3V-Z3-l3M" id="hH0-jk-wml"/>
                         <outlet property="themeSwitch" destination="yod-YV-DK5" id="pum-kL-924"/>
+                        <outlet property="tipAmountLabel" destination="iKM-Wu-qxf" id="UDe-Ua-poh"/>
+                        <outlet property="tipAmountTitleLabel" destination="Nag-l9-rUt" id="O8g-Bd-2Z4"/>
                         <outlet property="tipPercentSegmentedControl" destination="whY-wP-ecf" id="lfE-l4-kS4"/>
                         <outlet property="titleLabel" destination="nrF-oR-TjJ" id="cVs-Qy-DBh"/>
+                        <outlet property="totalAmountLabel" destination="8sf-kq-5zD" id="11W-bs-wJk"/>
+                        <outlet property="totalAmountTitleLabel" destination="y0Q-5T-ZJ6" id="zVX-lh-aQt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
