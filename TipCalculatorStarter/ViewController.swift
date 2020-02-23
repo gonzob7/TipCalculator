@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var totalAmountTitleLabel: UILabel!
     @IBOutlet weak var totalAmountLabel: UILabel!
+    @IBOutlet weak var resetButton: UIButton!
     
     
     
@@ -46,6 +47,8 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
+    }
     
 }
 

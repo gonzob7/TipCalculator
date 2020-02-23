@@ -170,13 +170,19 @@
                                     <constraint firstItem="Wfi-Tz-QD0" firstAttribute="leading" secondItem="k3V-Z3-l3M" secondAttribute="leading" constant="22" id="m7j-v4-1zH"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-zB-Nqr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-zB-Nqr">
                                 <rect key="frame" x="15" y="583" width="345" height="60"/>
                                 <color key="backgroundColor" name="tcDarkBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="3tV-T2-YhJ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <state key="normal" title="RESET">
+                                    <color key="titleColor" name="tcWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aqU-YM-gOI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" name="tcOffWhite"/>
@@ -204,6 +210,7 @@
                         <outlet property="headerView" destination="uae-ci-apE" id="GCb-zE-aWs"/>
                         <outlet property="inputCardView" destination="kMh-u8-JwS" id="Ehd-x7-55S"/>
                         <outlet property="outputCardView" destination="k3V-Z3-l3M" id="hH0-jk-wml"/>
+                        <outlet property="resetButton" destination="1tm-zB-Nqr" id="x7j-MP-oaN"/>
                         <outlet property="themeSwitch" destination="yod-YV-DK5" id="pum-kL-924"/>
                         <outlet property="tipAmountLabel" destination="iKM-Wu-qxf" id="UDe-Ua-poh"/>
                         <outlet property="tipAmountTitleLabel" destination="Nag-l9-rUt" id="O8g-Bd-2Z4"/>
