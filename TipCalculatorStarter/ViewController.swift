@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var themeSwitch: UISwitch!
+    @IBOutlet weak var inputCardView: UIView!
+    @IBOutlet weak var billAmountTextField: UITextField!
+    @IBOutlet weak var tipPercentSegmentedControl: UISegmentedControl!
     
     
     // MARK: - View Lifecycle
@@ -31,6 +34,9 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func tipPercentChanged(_ sender: UISegmentedControl) {
+    }
     
     
 }
