@@ -26,12 +26,19 @@
                                         <color key="textColor" name="tcCharcoal"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yod-YV-DK5">
+                                        <rect key="frame" x="302" y="37" width="51" height="31"/>
+                                        <color key="onTintColor" name="tcSeafoamGreen"/>
+                                    </switch>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="8ym-pG-HIK"/>
                                     <constraint firstItem="nrF-oR-TjJ" firstAttribute="leading" secondItem="uae-ci-apE" secondAttribute="leading" constant="24" id="9QZ-H7-epv"/>
+                                    <constraint firstItem="yod-YV-DK5" firstAttribute="centerY" secondItem="nrF-oR-TjJ" secondAttribute="centerY" id="JJY-mO-HP7"/>
                                     <constraint firstAttribute="bottom" secondItem="nrF-oR-TjJ" secondAttribute="bottom" id="RlQ-4v-WlA"/>
+                                    <constraint firstItem="yod-YV-DK5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nrF-oR-TjJ" secondAttribute="trailing" constant="20" id="bE4-NZ-jbq"/>
+                                    <constraint firstAttribute="trailing" secondItem="yod-YV-DK5" secondAttribute="trailing" constant="24" id="ecf-VL-NPQ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMh-u8-JwS">
@@ -86,6 +93,9 @@
         </namedColor>
         <namedColor name="tcOffWhite">
             <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tcSeafoamGreen">
+            <color red="0.34900000691413879" green="0.85500001907348633" blue="0.64300000667572021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
